@@ -16,7 +16,8 @@ The ISIC Lesion segmentation dataset is originally introduced in the [ISIC Chall
 
 ## Architecture
 
-- A **U-Net model** with a reduced number of parameters compared to the vanilla version.
+- A **U-Net model** (implemented from scratch in PyTorch)  with a reduced number of parameters compared to the vanilla version.
+![Model](images/u-net-architecture.png)
 - The file named `segmentation_model.pth` contains the weight parameters of the trained model.
 - Execute the `isic-2016-challenge-lesion-segmentation.ipynb` notebook to train the designated model.
 
